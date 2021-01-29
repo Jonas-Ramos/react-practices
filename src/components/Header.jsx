@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header (){
+function Header ({titulo}){
     
     return (
-        <h1 className='encabezado' id='encabezado'>Tienda Virtual</h1>
+        <h1 className='encabezado' id='encabezado'> {titulo} </h1>
     )
 }
 
